@@ -87,7 +87,7 @@ var hickey_json = {
 				{
 					name:'在线版个人简历',
 					msg:'基于 sass+vueJs+gulp 构建的在线版个人简历',
-					links:[{title:'源码',url:'https://github.com/shihao905/mineGame'},{title:'Demo',url:'https://shihao905.github.io/mineGame/'}],
+					links:[{title:'源码',url:'https://github.com/shihao905/cv'},{title:'Demo',url:'https://shihao905.github.io/cv/'}],
 					images:['./dist/images/cv.jpg']
 				},
 				{
