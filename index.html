@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="renderer" content="webkit|ie-comp|ie-stand">    
+        <title>史浩的简历</title>
+        <link rel="stylesheet" href="dist/css/fontello.min.css?v=b817d3a8f9?v=b817d3a8f9?v=b817d3a8f9?v=b817d3a8f9">
+        <link rel="stylesheet" href="dist/css/index.min.css?v=f4da352d92?v=f4da352d92?v=1700f717f4?v=1700f717f4">
+        <script src="lib/js/vue.min.js"></script>
+        <script src="dist/js/json.min.js?v=e8f4c0f63f?v=3632356517?v=628f4adf9b?v=628f4adf9b"></script>
+    </head>
+    <body>
+        <div id="content" class="clearFix">
+            <div id="sidebar">
+                <div class="header">
+                    <img class="logo" src="dist/images/user.jpg">
+                    <h1 class="name">{{infor.cvName}}</h1>
+                    <p class="description">{{infor.description}}</p>
+                </div>
+                <div class="side">
+                    <h2 class="title"><span class="icon-bookmark"></span>联系方式</h2>
+                    <ul>
+                        <li v-for="item in contactMe">
+                            <span v-bind:class="item.className"></span>{{item.title}}：{{item.address}}
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="side">
+                    <h2 class="title"><span class="icon-bookmark"></span>应聘岗位</h2>
+                    <ul>
+                        <li>
+                            {{infor.job}}
+                        </li>
+                    </ul>
+                </div>
+                <div class="side">
+                    <h2 class="title"><span class="icon-bookmark"></span>技能点</h2>
+                    <ul>
+                        <li v-for="item in skill" class="clearFix">
+                            <span class="type">{{item.title}}</span>
+                            <span class="bar"><span class="childBar" v-bind:style="{width: item.length}"></span></span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="note">
+                    <p v-for="item in note"> {{item}} </p>
+                </div>
+            </div>
+            <div id="main">
+                <div class="section">
+                    <h2><i class="icon-bookmark"></i>基本信息</h2>
+                    <ul class="infor">
+                        <li v-for="item in inforList">
+                            <span class="title">{{item.title}}</span>：
+                            <a v-if="item.url" target="_black" v-bind:href="item.url">{{item.msg}}</a>
+                            <span v-else="item.url">{{item.msg}}</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="section">
+                    <h2><i class="icon-bookmark"></i>项目与工作经验</h2>
+                    <ul class="proType">
+                        <li v-for="apro in project">
+                            <h3>{{apro.type}}</h3>
+                            <ul class="proList">
+                                <li v-for="item in apro.list">
+                                    <h4>
+                                        <div class="circle"></div>
+                                        {{item.name}}
+                                        <a v-for="link in item.links" class="link" target="_black" v-bind:href="link.url">
+                                            <i class="icon-link"></i>
+                                            {{link.title}}
+                                        </a>
+                                    </h4>
+                                    <div class="proDes">
+                                        {{item.msg}}
+                                        <p>
+                                            <img v-for="img in item.images" v-bind:src="img">
+                                        </p>
+                                    </div> 
+                                </li>
+                                <!-- <li>
+                                    <h4>
+                                        <div class="circle"></div>
+                                        项目名称
+                                        <a class="link" target="_black" href="javascript:;">
+                                            <i class="icon-link"></i>
+                                            源代码
+                                        </a>
+                                        <a class="link" target="_black" href="javascript:;">
+                                            <i class="icon-link"></i>
+                                            Demo
+                                        </a>
+                                    </h4>
+                                    <div class="proDes">
+                                        <p>
+                                            哈哈哈哈哈哈
+                                        </p>
+                                        <p>
+                                            哈哈哈哈哈哈
+                                        </p>
+                                        <p>
+                                            <img src="./src/images/1.jpg">
+                                        </p>
+                                    </div> 
+                                </li> -->
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="dist/js/index.min.js?v=f12bba57d8?v=f12bba57d8?v=f12bba57d8?v=f12bba57d8"></script>
+</html>

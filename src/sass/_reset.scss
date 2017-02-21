@@ -1,0 +1,42 @@
+/*all*/
+body, h1, h2, h3, h4, h5, h6, p, dl, dd, ul, ol, form, input, textarea, th, td {
+    margin: 0;
+    padding: 0;
+}
+em {
+    font-style: normal;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+img {
+    vertical-align: top;
+    border: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+textarea {
+    resize: none;
+    overflow: auto;
+}
+input, textarea {
+    outline: none;
+}
+body, a, button, input, select, textarea {
+    font-family: 'Helvetica Neue',Helvetica,'Lucida Grande',Arial,'Hiragino Sans GB',微软雅黑,'WenQuanYi Micro Hei',STHeiti,SimSun,sans-serif;
+    color: #616161;
+    font-size: 15px;
+}
+.clearFix {
+    zoom:1;
+}
+.clearFix:after {
+    content:"";
+    display: block;
+    clear: both;
+}

@@ -1,0 +1,175 @@
+@charset "UTF-8";
+/*all*/
+body, h1, h2, h3, h4, h5, h6, p, dl, dd, ul, ol, form, input, textarea, th, td {
+  margin: 0;
+  padding: 0; }
+
+em {
+  font-style: normal; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+img {
+  vertical-align: top;
+  border: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+textarea {
+  resize: none;
+  overflow: auto; }
+
+input, textarea {
+  outline: none; }
+
+body, a, button, input, select, textarea {
+  font-family: 'Helvetica Neue',Helvetica,'Lucida Grande',Arial,'Hiragino Sans GB',微软雅黑,'WenQuanYi Micro Hei',STHeiti,SimSun,sans-serif;
+  color: #616161;
+  font-size: 15px; }
+
+.clearFix {
+  zoom: 1; }
+
+.clearFix:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+/* body{
+	background: red;
+} */
+body {
+  background: #d0d0d0; }
+
+#content {
+  width: 1060px;
+  margin: 10px auto 10px;
+  border-radius: 4px;
+  overflow: hidden;
+  visibility: hidden;
+  position: relative; }
+
+#sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 15px;
+  width: 270px;
+  height: 100%;
+  background: #00bfa5;
+  color: #fff; }
+  #sidebar .header {
+    text-align: center; }
+    #sidebar .header .logo {
+      display: block;
+      margin: 20px auto 15px;
+      width: 120px;
+      height: 120px; }
+    #sidebar .header .name {
+      font-size: 28px;
+      font-weight: 400; }
+    #sidebar .header .description {
+      font-size: 14px; }
+  #sidebar .side {
+    padding-top: 20px;
+    font-size: 14px;
+    line-height: 26px;
+    color: #fff; }
+    #sidebar .side ul {
+      padding-left: 25px; }
+    #sidebar .side .title {
+      font-size: 18px;
+      color: #9f3;
+      line-height: 40px; }
+    #sidebar .side .type {
+      float: left;
+      width: 30%; }
+    #sidebar .side .bar {
+      float: left;
+      width: 65%;
+      background: #00796b;
+      height: 16px;
+      margin-top: 2px;
+      border-radius: 8px;
+      overflow: hidden;
+      position: relative; }
+    #sidebar .side .childBar {
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: #fff; }
+  #sidebar .note {
+    margin-top: 90px;
+    text-indent: 2em;
+    margin-top: 90px;
+    color: #004d40;
+    font-size: 18px; }
+
+#main {
+  float: right;
+  width: 720px;
+  padding: 15px 20px;
+  background: #f0f2f1;
+  color: #616161; }
+  #main h2 {
+    font-size: 24px;
+    color: #00796b;
+    line-height: 30px;
+    border-bottom: 1px solid #00796b;
+    margin: 0 0 15px -5px;
+    font-weight: normal; }
+  #main h3 {
+    font-size: 19px;
+    color: #004d40;
+    margin: 0 0 15px 5px; }
+  #main h4 {
+    line-height: 26px;
+    font-size: 18px;
+    bottom: 3px;
+    color: #000; }
+  #main .link {
+    color: #00bfa5;
+    font-size: 12px;
+    border: 1px solid #4db6ac;
+    padding: 1px 3px;
+    border-radius: 5px;
+    margin-left: 7px; }
+  #main .proList {
+    border-left: 2px solid #00796b;
+    margin-left: 15px; }
+  #main .proList li {
+    position: relative;
+    top: -5px;
+    margin: 0 0 20px 20px; }
+  #main .proDes {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 3px;
+    padding: 5px 0; }
+    #main .proDes img {
+      width: 200px;
+      margin: 0 10px; }
+  #main .circle {
+    height: 14px;
+    width: 14px;
+    border-radius: 100%;
+    background: #00796b;
+    float: left;
+    position: absolute;
+    left: -28px;
+    top: 5px; }
+  #main .section {
+    padding-top: 20px; }
+  #main .infor {
+    font-size: 15px;
+    line-height: 27px; }
+    #main .infor .title {
+      color: #000;
+      font-size: 16px; }
