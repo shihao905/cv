@@ -77,9 +77,7 @@ var hickey_json = {
 			list:[
 				{
 					name:'大麦电商',
-					msg:'大麦电商为',
-					links:[{title:'项目地址',url:'http://demo2.yun.myuclass.com/'}],
-					images:['./dist/images/pt.jpg']
+					msg:'主要负责网站的样式布局以及维护工作'
 				}
 			]
 		},
@@ -90,7 +88,7 @@ var hickey_json = {
 					name:'在线版个人简历',
 					msg:'基于 sass+vueJs+gulp 构建的在线版个人简历',
 					links:[{title:'源码',url:'https://github.com/shihao905/mineGame'},{title:'Demo',url:'https://shihao905.github.io/mineGame/'}],
-					images:['./dist/images/mine1.jpg','./dist/images/mine2.jpg']
+					images:['./dist/images/cv.jpg']
 				},
 				{
 					name:'经典游戏-扫雷',
