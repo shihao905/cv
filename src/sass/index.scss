@@ -161,3 +161,33 @@ body {
 	    }
 	}
 }
+#footer {
+	text-align: center;
+	margin: 20px 0;
+	a {
+		color: #3598d8;
+	}
+}
+#listNav{
+	position: fixed;
+	top: 50%;
+	right: 0;
+	margin-top: -80px;
+	li{
+		margin-bottom: 20px;
+		background: #00bfa5;
+		overflow: hidden;
+	    -webkit-border-radius: 10px 0 0 10px;
+	    border-radius: 10px 0 0 10px;
+	    -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+	    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+	}
+	a {
+		display: inline-block;
+	    width: 80px;
+	    height: 38px;
+	    line-height: 38px;
+	    padding-left: 10px;
+	    color: #fff;
+	}
+}

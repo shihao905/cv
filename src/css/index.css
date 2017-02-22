@@ -173,3 +173,28 @@ body {
     #main .infor .title {
       color: #000;
       font-size: 16px; }
+
+#footer {
+  text-align: center;
+  margin: 20px 0; }
+  #footer a {
+    color: #3598d8; }
+
+#listNav {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  margin-top: -80px; }
+  #listNav li {
+    margin-bottom: 20px;
+    background: #00bfa5;
+    overflow: hidden;
+    border-radius: 10px 0 0 10px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
+  #listNav a {
+    display: inline-block;
+    width: 80px;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 10px;
+    color: #fff; }

@@ -43,16 +43,17 @@ var hickey_json = {
 		}
 	],
 	skill:[
-		{title:'HTML/CSS',length:'85%'},
-		{title:'sass',length:'70%'},
-		{title:'javascript',length:'80%'},
-		{title:'jQuery',length:'70%'},
-		{title:'VueJs',length:'60%'},
-		{title:'requireJs',length:'50%'}
+		{title:'HTML/CSS',length:'70%'},
+		{title:'sass',length:'55%'},
+		{title:'javascript',length:'65%'},
+		{title:'jQuery',length:'55%'},
+		{title:'VueJs',length:'45%'},
+		{title:'requireJs',length:'30%'},
+		{title:'gulp',length:'30%'}
 	],
 	note:[
-		'我是一个充满活力，热爱前端事业，并为之一直前进的人。',
-		'希望寻找一个关于webApp开发的工作'
+		'个充满活力，热爱前端的前端工程师，并且善于发现问题、解决问题、勇于改进。',
+		'希望寻找一个前端开发的岗位，赶快联系我吧！！！'
 	],
 	project:[
 		{
@@ -122,6 +123,23 @@ var hickey_json = {
 			]
 		}
 
+	],
+	navList: [
+
+		{
+			title:'源代码',
+			url: 'https://github.com/shihao905/cv'
+		},
+		{
+
+			title:'博客园',
+			url: 'http://www.cnblogs.com/shihao905'
+		},
+		{
+
+			title:'GitHub',
+			url: 'https://github.com/shihao905'
+		}
 	]
 
 }

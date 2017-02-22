@@ -51,7 +51,7 @@ gulp.task('default',['html'],function(){
     
 });
 
-gulp.task('watchSass',function(){
+gulp.task('watch',function(){
     borwserSync.init({
         server:{
         baseDir:'./'
