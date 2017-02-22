@@ -155,6 +155,7 @@ body {
     padding: 5px 0; }
     #main .proDes img {
       width: 200px;
+      min-height: 200px;
       margin: 0 10px; }
   #main .circle {
     height: 14px;
