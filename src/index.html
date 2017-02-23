@@ -6,16 +6,16 @@
         <meta name="renderer" content="webkit|ie-comp|ie-stand">    
         <title>史浩的简历</title>
         <link rel="shortcut icon" href="favicon.ico">
-        <link rel="stylesheet" href="dist/css/fontello.min.css?v=b817d3a8f9">
-        <link rel="stylesheet" href="dist/css/index.min.css?v=2b45c76354">
+        <link rel="stylesheet" href="dist/css/fontello.min.css">
+        <link rel="stylesheet" href="dist/css/index.min.css">
         <script src="lib/js/vue.min.js"></script>
-        <script src="dist/js/json.min.js?v=21e6b18ef2"></script>
+        <script src="dist/js/json.min.js"></script>
     </head>
     <body>
-        <div id="content" class="clearFix" style="margin: 0;">
+        <div id="content" class="clearFix">
             <div id="sidebar">
                 <div class="header">
-                    <img class="logo" src="./cv.png">
+                    <img class="logo" src="dist/images/user.jpg">
                     <h1 class="name">{{infor.cvName}}</h1>
                     <p class="description">{{infor.description}}</p>
                 </div>
@@ -70,16 +70,15 @@
                                     <h4>
                                         <div class="circle"></div>
                                         {{item.name}}
-                                        <!-- <a v-for="link in item.links" class="link" target="_black" v-bind:href="link.url">
+                                        <a v-for="link in item.links" class="link" target="_black" v-bind:href="link.url">
                                             <i class="icon-link"></i>
                                             {{link.title}}
-                                        </a> -->
+                                        </a>
                                     </h4>
                                     <div class="proDes">
                                         {{item.msg}}
-                                        <p v-for="link in item.links" >
-                                            <span style="font-weight: bold; color: #000;">{{link.title}}</span>：
-                                            <span>{{link.url}}</span>
+                                        <p>
+                                            <img v-for="img in item.images" v-bind:src="img">
                                         </p>
                                     </div> 
                                 </li>
@@ -88,7 +87,13 @@
                     </ul>
                 </div>
             </div>
+            <ul id="listNav">
+                <li v-for="item in navList"><a v-bind:href="item.url" target="_black">{{item.title}}</a></li>
+            </ul>
+        </div>
+        <div id="footer">
+            <p>Theme by <a href="http://html.love/" target="_blank">DIYgod</a>. Made with by <a href="https://shihao905.github.io/cv/" target="_blank">Shihao</a>. 最后更新于2017年2月</p>
         </div>
     </body>
-    <script src="dist/js/index.min.js?v=e0d7085ca9"></script>
+    <script src="dist/js/index.min.js"></script>
 </html>
