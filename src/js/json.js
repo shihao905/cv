@@ -67,7 +67,7 @@ var hickey_json = {
 				},
 				{
 					name:'优课智慧教育云平台社区（人人通空间）',
-					msg:'该产品主要为区域内的（家庭+学校+教育局）提供一个公共的社区交流平台。<br/>主要负责前端的整体架构，部分模块功能开发,主要基于jQuery库进行开发，requireJs进行js模块开发及管理，sass进行项目的样式开发工作，运用Gulp来管理整体项目打包工作',
+					msg:'该产品主要为区域内的（家庭+学校+教育局）提供一个公共的社区交流平台。主要负责前端的整体架构，部分模块功能开发,主要基于jQuery库进行开发，requireJs进行js模块开发及管理，sass进行项目的样式开发工作，运用Gulp来管理整体项目打包工作',
 					links:[{title:'项目地址',url:'http://demo2.yun.myuclass.com/renrentong/JCenterHome/home/index.html?spaceId=832c786dbce8407488b0ebc7050319dd&spaceType=2'}],
 					images:['./dist/images/rrt.jpg']
 				}
