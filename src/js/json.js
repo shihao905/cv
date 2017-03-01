@@ -29,7 +29,7 @@ var hickey_json = {
 		{
 			className:{'icon-mail-alt':true},
 			title:'邮箱',
-			address:'519547015@qq.com'
+			address:'shihao0905@126.com'
 		},
 		{
 			className:{'icon-wechat':true},
