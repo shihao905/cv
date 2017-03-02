@@ -49,6 +49,7 @@ var hickey_json = {
 		{title:'jQuery',length:'55%'},
 		{title:'VueJs',length:'45%'},
 		{title:'requireJs',length:'30%'},
+		{title:'nodejs',length:'30%'},
 		{title:'gulp',length:'30%'}
 	],
 	note:[
