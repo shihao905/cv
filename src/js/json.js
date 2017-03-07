@@ -148,6 +148,11 @@ var hickey_json = {
 
 			title:'GitHub',
 			url: 'https://github.com/shihao905'
+		},
+		{
+
+			title:'PDF简历下载',
+			url: '前端开发-史浩.pdf'
 		}
 	]
 
