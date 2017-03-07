@@ -14,6 +14,10 @@ var hickey_json = {
 			msg:'本科'
 		},
 		{
+			title:'毕业院校',
+			msg:'南昌大学(本科),江西工程学院(专科)'
+		},
+		{
 
 			title:'博客园',
 			msg:'http://www.cnblogs.com/shihao905',
@@ -23,6 +27,10 @@ var hickey_json = {
 			title:'GitHub',
 			msg:'https://github.com/shihao905',
 			url: 'https://github.com/shihao905'
+		},
+		{
+			title:'联系方式',
+			msg:'18500605204'
 		}
 	],
 	contactMe:[
