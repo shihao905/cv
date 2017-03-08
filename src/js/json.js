@@ -58,7 +58,8 @@ var hickey_json = {
 		{title:'VueJs',length:'45%'},
 		{title:'requireJs',length:'30%'},
 		{title:'nodejs',length:'30%'},
-		{title:'gulp',length:'30%'}
+		{title:'gulp',length:'30%'},
+		{title:'PhotoShop',length:'30%'}
 	],
 	note:[
 		'个充满活力，热爱前端的前端工程师，并且善于发现问题、解决问题、勇于改进。',
