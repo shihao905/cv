@@ -7,7 +7,7 @@ var hickey_json = {
 	inforList: [
 		{
 			title:'个人信息',
-			msg:'史浩/男/22岁'
+			msg:'史浩/男/24岁'
 		},
 		{
 			title:'学历',
